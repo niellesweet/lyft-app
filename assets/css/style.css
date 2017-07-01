@@ -2,15 +2,15 @@
 	font-family: 'Montserrat', sans-serif;
 }
 
-.glyphicon-chevron-left{
-	color: red;
-}
+
+/*Estilos index2*/
+/*navbar*/
 
 .navbar-default{
 	background-color: transparent;
 	border:none;
-
 }
+
 .navbar-default .navbar-text {
     margin-left: 140px;
     color: #000;

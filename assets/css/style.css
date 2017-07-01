@@ -20,3 +20,12 @@
 	color: #000;
 	margin-top: 30px;
 }
+
+.dropdown-menu{
+	width: 100%;
+}
+
+/*Estilos banderas*/
+.flag{
+	width: 5%;
+}

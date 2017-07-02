@@ -15,3 +15,42 @@
     z-index: -1;
 }
 
+/* logo lyft */
+.logo, .regalo, .perfil{
+	margin-top: 20px;
+}
+
+.logo{
+	width: auto;
+	height: 30px;
+	padding-left: 22px;
+}
+
+.regalo{
+	padding-left: 50px;
+}
+
+/* Vacio */
+
+.vacio{
+	padding-top: 300px;
+}
+
+.brujula{
+	margin-left: 270px;
+}
+
+/* INPUT */
+.inputGEO{
+	width: 91%;
+	height: 50px;
+	margin-left: 15px;
+}
+
+/* BUTTON */
+
+.buttonGEO{
+	width: 100%;
+	height: 50px;
+	margin-left: 0;
+}

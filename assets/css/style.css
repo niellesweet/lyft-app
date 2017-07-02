@@ -3,3 +3,9 @@
 }
 
 /*Geolocalización*/
+/* MAPA */
+#map{
+	width: 70%;
+	height: 100vh;
+	border: 2px solid whitesmoke;
+}

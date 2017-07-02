@@ -2,13 +2,35 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Lyft</title>
+	<!-- Viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Font -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
-	<link rel="stylesheet" href="assets/css/style.css">
-	<link rel="stylesheet" href="assets/css/media.css">
+	<!-- CDN Bootstrap -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/media.css">
 </head>
 <body>
-	
-	<script src="assets/js/main.js"></script>
+	<section class="principal" id="principal">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="hidden-lg hidden-md hidden-sm col-xs-12">
+				<div class="logotipo"><img src="assets/images/logo-white.png" class="img-responsive" alt="Logotipo"></div>
+				<div class="botones">
+					<a type="button" class="btn btn-inicio" id="log">Log in</a>
+					<a type="button" class="btn btn-inicio" id="sign">Sign up</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	</section>
+	<!-- JAVASCRIPT es preferible como ultima linea en el body -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>

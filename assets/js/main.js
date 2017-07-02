@@ -33,9 +33,9 @@ function initMap(){
 
 	var miUbicacion = new google.maps.Marker({
 		position: {lat: latitud, lng:longitud},
-		animation: google.maps.Animation.DROP, // .BOUNCE para que salte el monito .DROP para que deje de saltar
+		animation: google.maps.Animation.BOUNCE, // .BOUNCE para que salte el monito .DROP para que deje de saltar
 		map: map,
-
+		icon: 'assets/img/iconoPerrito.png',
 	});
 
 	/*Aumentaremos la profundidad de visualización de nuestro mapa con map.setZoom y le asignaremos
@@ -51,7 +51,7 @@ function initMap(){
 	var funcionError = function (error){
 		alert("Tenemos un problema con encontrar tu ubicación");
 	}
-	buscar();
+	buscar(); // Esto es lo que permite que al cargar la pagina la funcion buscar se ejecute y pregunte lo de la ubicacion
 
   /* Autocomplete */
   var inicio = (document.getElementById('origen'));

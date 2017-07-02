@@ -5,7 +5,13 @@
 /*Geolocalización*/
 /* MAPA */
 #map{
-	width: 70%;
+	width: 100%;
 	height: 100vh;
 	border: 2px solid whitesmoke;
+	/* La propiedad z-index especifica el orden de apilamiento de un elemento. */
+	position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
 }
+

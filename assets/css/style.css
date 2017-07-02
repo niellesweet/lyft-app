@@ -20,9 +20,13 @@
 	margin-top: 10px;
 }
 
+.regalo, .perfilGEO{
+	font-size: 25px;
+}
+
 .logo{
 	width: auto;
-	height: 30px;
+	height: 40px;
 	padding-left: 22px;
 }
 .regalo{
@@ -39,7 +43,7 @@
 /* Vacio */
 
 .vacio{
-	padding-top: 320px;
+	padding-top: 90%;
 }
 
 .brujula{

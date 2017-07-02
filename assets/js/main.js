@@ -1,5 +1,4 @@
 /* MAPA */
-
 function initMap(){
 
     /*RUTA*/
@@ -54,23 +53,18 @@ function initMap(){
 	buscar(); // Esto es lo que permite que al cargar la pagina la funcion buscar se ejecute y pregunte lo de la ubicacion
 
   /* Autocomplete */
-  var inicio = (document.getElementById('origen'));
-  var autocomplete = new google.maps.places.Autocomplete(inicio);
-  autocomplete.bindTo('bounds', map);
-
   var final = (document.getElementById('destino'));
   var autocomplete = new google.maps.places.Autocomplete(final);
   autocomplete.bindTo('bounds', map);
-
 
   document.getElementById('ruta').addEventListener('click', function(){
     calculateAndDisplayRoute(directionsService, directionsDisplay);
   });
 
-
+  // RUTA TRAZADO
   function calculateAndDisplayRoute(directionsService, directionsDisplay) {
     directionsService.route({
-    origin: document.getElementById('origen').value,
+    origin: {lat: latitud, lng:longitud}, // origen lo tenemos conectado a la variable de coordenadas
     destination: document.getElementById('destino').value,
     travelMode: 'DRIVING'
     }, function(response, status) {

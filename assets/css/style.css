@@ -8,7 +8,7 @@ body {
 }
 /*Index 01*/
 .principal {
-	background-image: url(../images/bg.jpg);/*Aun no*/
+	background-image: url(../images/bg.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -29,14 +29,14 @@ body {
 	margin: 10px;
 }
 /*cambio estilos botones*/
-.btn-default {
+.btn-inicio {
     color: #ccc;
     background-color: transparent;
     border-color: #ccc;
     padding: 10px 30px;
     margin: 5px auto;
 }
-.btn-default:hover {
+.btn-inicio:hover {
     color: #fff;
     background: linear-gradient(to bottom right,#9A2EFE, #FF00FF);
     border-color: transparent;

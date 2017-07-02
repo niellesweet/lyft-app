@@ -1,9 +1,9 @@
-//index.html
-var elemento = document.getElementById("sign");
-elemento.addEventListener("click", signup);
-
-function signup() {
+//alert("existe");
+$(document).ready(function() {
+	// index.html
     // validacion click boton Sign Up
- 	window.location.href = "index2.html";
-};
-// Fin index.html
+    $("#sign").click(function(){
+    window.location.href = "index2.html";
+    });
+  	// Fin index.html
+});

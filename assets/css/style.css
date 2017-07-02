@@ -8,10 +8,36 @@ body {
 }
 /*Index 01*/
 .principal {
-	background-image: url();/*Aun no*/
-	background-color: purple;
+	background-image: url(../images/bg.jpg);/*Aun no*/
 	height: 100vh;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center bottom;
+	background-position: center;
+}
+.logotipo {
+	width: 30%;
+	height: auto;
+	text-align: center;
+	margin: 60px auto;
+}
+.botones {
+	position: fixed;
+	bottom: 0;
+	left: -10px;
+	width:100%;
+	text-align: center;
+	margin: 10px;
+}
+/*cambio estilos botones*/
+.btn-default {
+    color: #ccc;
+    background-color: transparent;
+    border-color: #ccc;
+    padding: 10px 30px;
+    margin: 5px auto;
+}
+.btn-default:hover {
+    color: #fff;
+    background: linear-gradient(to bottom right,#9A2EFE, #FF00FF);
+    border-color: transparent;
 }

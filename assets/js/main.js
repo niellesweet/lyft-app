@@ -1,3 +1,5 @@
+
+
 /* MAPA */
 function initMap(){
 
@@ -67,7 +69,7 @@ function initMap(){
   autocomplete.bindTo('bounds', map);
 
   // para que haga la ruta con el boton
-  document.getElementById('ruta').addEventListener('click', function(){
+  	document.getElementById('ruta').addEventListener('click', function(){
     calculateAndDisplayRoute(directionsService, directionsDisplay);
   });
 
@@ -85,5 +87,4 @@ function initMap(){
         }
       });
   }
-
 }

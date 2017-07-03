@@ -1,4 +1,6 @@
 *{
+	margin: 0;
+	padding: 0;
 	font-family: 'Montserrat', sans-serif;
 }
 /*reset margenes*/
@@ -42,3 +44,120 @@ body {
     border-color: transparent;
 }
 /*Fin Index 01*/
+/*Estilos index2*/
+/*navbar*/
+p .navbar-text.text-center, .country{
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    color: #000;
+    font-size: 2.5em;
+    margin-top: 30px;
+}
+
+
+.navbar-default{
+	background-color: transparent;
+	border:none;
+}
+
+.navbar-default .navbar-text {
+    color: #000;
+    font-size: 2.5em;
+}
+
+nav div.container-fluid{
+	border-bottom: 1px solid #666;
+	height: 150px;
+}
+
+.sub{
+	margin-top: -20px;
+	padding: 20px;
+	border:none;
+	background-color: #efeff4;
+	font-size: 0.5em;
+}
+
+.fa-chevron-left, .close{
+	color: #000;
+	margin-top: 30px;
+}
+
+#elegir{
+	background-color: transparent;
+	border:none;
+	width: 50px;
+	margin-left: -40%;
+}
+
+#movil{
+	margin-top: 15%;
+}
+
+/*Estilos de input*/
+input#telefono{
+	width: 200%;
+	height: 5.5em;
+	border:none;
+	border-bottom:2px solid #666;
+}
+
+/*Estilo de codigo de cada país*/
+#codigo{
+	color: #000;
+	font-size: 3.5em;
+	margin-left: -50%;
+}
+
+/*Estilo de mensaje debajo de input*/
+.send{
+	font-size: 1.2em;
+	margin-top: 4%;
+}
+
+/*Estilos banderas*/
+.flag{
+	width: 350%;
+}
+
+.flag.band{
+	width: 10%;
+}
+
+/*Estilo button next*/
+.next{
+
+	background: #FF27B4;
+	padding: 17px;
+	border-color: #41521F;
+	width: 100%;
+	border-style: none;
+	margin-top:15%;
+	font-size: 17px;
+}
+
+.next a{
+	color: #fff;
+}
+
+/*Estilos de modal*/
+
+.modal.fade{
+	background-color: #fff;
+}
+
+ul#info-paises li{
+	list-style: none;
+	margin-top: 2em;
+}
+
+ul#info-paises li a{
+	color: #000;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+
+.cerrar{
+	color: #000;
+}

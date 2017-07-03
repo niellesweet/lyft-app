@@ -1,5 +1,6 @@
-$("document").ready(function(){
-	/*var opciones = [
+{
+	"opciones":[
+
 		{	"nombre" : "Argentina",
 			"codigo" : "+54",
 			"img" : "assets/img/banderas/argentina.png"},
@@ -39,19 +40,5 @@ $("document").ready(function(){
 		{	"nombre" : "Venezuela",
 			"codigo" : "+58",
 			"img" : "assets/img/banderas/venezuela.png"},
-	];
-
-	var op = ["src='assets/img/banderas/chile.png'"];*/
-//FUNCIONES INDEX2 E INDEX2-PAISES
-
-
-//Trato de cambiar imagen de bandera al seleccionar y no hay ningun cambio ni error en consola
-	$("#ar").on("click",function(){
-		$("<div><img id='bandera' class='flag' src='assets/img/banderas/argentina.png></div>").replaceAll("#probando");
-	});
-});
-
-
-
-
-
+	]
+};

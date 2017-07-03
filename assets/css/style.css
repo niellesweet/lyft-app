@@ -47,9 +47,17 @@ nav div.container-fluid{
 	margin-top: 30px;
 }
 
+#probando{
+	background-color: red;
+	width: 50px;
 
+}
 /*Estilos banderas*/
 .flag{
+	width: 100%;
+}
+
+.flag.band{
 	width: 5%;
 }
 

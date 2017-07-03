@@ -1,12 +1,10 @@
-//alert("existe");
-$(document).ready(function() {
-	// index.html
+$("document").ready(function(){
+  // index.html
     // validacion click boton Sign Up
     $("#sign").click(function(){
     window.location.href = "index2.html";
     });
-  	// Fin index.html
-    $("document").ready(function(){
+  // Fin index.html
   /* Quise hacerlo con array pero no pude u.u
 
   var opciones = [
@@ -50,10 +48,7 @@ $(document).ready(function() {
       "codigo" : "+58",
       "img" : "assets/img/banderas/venezuela.png"},
   ];
-
 */
-
-
 //FUNCIONES INDEX2 E INDEX2-PAISES
   //Arreglo con direccion de imagenes de banderas
   var op = [
@@ -90,7 +85,17 @@ $(document).ready(function() {
         alert("Debe ingresar un número de 12 dígitos");
         $("#next").attr("disabled","true");
        }else{
-        $("#next").attr("disabled","flase");
+        $("#next").attr("disabled","false");
+        //$.jStorage.set(clave);
+        $("#myModal").on("shown.bs.modal", function () {
+             $("#myInput").focus()
+             //
+             var clave = $("input#telefono").val();
+             $(".modal-body#codigo").append(clave);
+             console.log("trabajando");
+             // storage obtener desde clave
+             $.jStorage.set(clave);
+           });
        }
     });
   });
@@ -110,7 +115,17 @@ $(document).ready(function() {
         alert("Debe ingresar un número de 8 dígitos");
         $("#next").attr("disabled","true");
        }else{
-        $("#next").attr("disabled","flase");
+        $("#next").attr("disabled","false");
+        //$.jStorage.set(clave);
+        $("#myModal").on("shown.bs.modal", function () {
+             $("#myInput").focus()
+             //
+             var clave = $("input#telefono").val();
+             $(".modal-body#codigo").append(clave);
+             console.log("trabajando");
+             // storage obtener desde clave
+             $.jStorage.set(clave);
+           });
        }
     });
   });
@@ -130,7 +145,17 @@ $(document).ready(function() {
         alert("Debe ingresar un número de 11 dígitos");
         $("#next").attr("disabled","true");
        }else{
-        $("#next").attr("disabled","flase");
+        $("#next").attr("disabled","false");
+        //$.jStorage.set(clave);
+        $("#myModal").on("shown.bs.modal", function () {
+             $("#myInput").focus()
+             //
+             var clave = $("input#telefono").val();
+             $(".modal-body#codigo").append(clave);
+             console.log("trabajando");
+             // storage obtener desde clave
+             $.jStorage.set(clave);
+           });
        }
     });
   });
@@ -149,7 +174,17 @@ $(document).ready(function() {
         alert("Debe ingresar un número de 9 dígitos");
         $("#next").attr("disabled","true");
        }else{
-        $("#next").attr("disabled","flase");
+        $("#next").attr("disabled","false");
+        //$.jStorage.set(clave);
+        $("#myModal").on("shown.bs.modal", function () {
+             $("#myInput").focus()
+             //
+             var clave = $("input#telefono").val();
+             $(".modal-body#codigo").append(clave);
+             console.log("trabajando");
+             // storage obtener desde clave
+             $.jStorage.set(clave);
+           });
        }
     });
   });
@@ -169,7 +204,17 @@ $(document).ready(function() {
         alert("Debe ingresar un número de 10 dígitos");
         $("#next").attr("disabled","true");
        }else{
-        $("#next").attr("disabled","flase");
+        $("#next").attr("disabled","false");
+        //$.jStorage.set(clave);
+        $("#myModal").on("shown.bs.modal", function () {
+             $("#myInput").focus()
+             //
+             var clave = $("input#telefono").val();
+             $(".modal-body#codigo").append(clave);
+             console.log("trabajando");
+             // storage obtener desde clave
+             $.jStorage.set(clave);
+           });
        }
     });
   });
@@ -188,7 +233,17 @@ $(document).ready(function() {
         alert("Debe ingresar un número de 9 dígitos");
         $("#next").attr("disabled","true");
        }else{
-        $("#next").attr("disabled","flase");
+        $("#next").attr("disabled","false");
+        //$.jStorage.set(clave);
+        $("#myModal").on("shown.bs.modal", function () {
+             $("#myInput").focus()
+             //
+             var clave = $("input#telefono").val();
+             $(".modal-body#codigo").append(clave);
+             console.log("trabajando");
+             // storage obtener desde clave
+             $.jStorage.set(clave);
+           });
        }
     });
   });
@@ -208,7 +263,17 @@ $(document).ready(function() {
         alert("Debe ingresar un número de 7 dígitos");
         $("#next").attr("disabled","true");
        }else{
-        $("#next").attr("disabled","flase");
+        $("#next").attr("disabled","false");
+        //$.jStorage.set(clave);
+        $("#myModal").on("shown.bs.modal", function () {
+             $("#myInput").focus()
+             //
+             var clave = $("input#telefono").val();
+             $(".modal-body#codigo").append(clave);
+             console.log("trabajando");
+             // storage obtener desde clave
+             $.jStorage.set(clave);
+           });
        }
     });
   });
@@ -228,7 +293,17 @@ $(document).ready(function() {
         alert("Debe ingresar un número de 12 dígitos");
         $("#next").attr("disabled","true");
        }else{
-        $("#next").attr("disabled","flase");
+        $("#next").attr("disabled","false");
+        //$.jStorage.set(clave);
+        $("#myModal").on("shown.bs.modal", function () {
+             $("#myInput").focus()
+             //
+             var clave = $("input#telefono").val();
+             $(".modal-body#codigo").append(clave);
+             console.log("trabajando");
+             // storage obtener desde clave
+             $.jStorage.set(clave);
+           });
        }
     });
   });
@@ -247,7 +322,17 @@ $(document).ready(function() {
         alert("Debe ingresar un número de 9 dígitos");
         $("#next").attr("disabled","true");
        }else{
-        $("#next").attr("disabled","flase");
+        $("#next").attr("disabled","false");
+        //$.jStorage.set(clave);
+        $("#myModal").on("shown.bs.modal", function () {
+             $("#myInput").focus()
+             //
+             var clave = $("input#telefono").val();
+             $(".modal-body#codigo").append(clave);
+             console.log("trabajando");
+             // storage obtener desde clave
+             $.jStorage.set(clave);
+           });
        }
     });
   });
@@ -266,7 +351,17 @@ $(document).ready(function() {
         alert("Debe ingresar un número de 9 dígitos");
         $("#next").attr("disabled","true");
        }else{
-        $("#next").attr("disabled","flase");
+        $("#next").attr("disabled","false");
+        //$.jStorage.set(clave);
+        $("#myModal").on("shown.bs.modal", function () {
+             $("#myInput").focus()
+             //
+             var clave = $("input#telefono").val();
+             $(".modal-body#codigo").append(clave);
+             console.log("trabajando");
+             // storage obtener desde clave
+             $.jStorage.set(clave);
+           });
        }
     });
   });
@@ -286,7 +381,17 @@ $(document).ready(function() {
         alert("Debe ingresar un número de 7dígitos");
         $("#next").attr("disabled","true");
        }else{
-        $("#next").attr("disabled","flase");
+        $("#next").attr("disabled","false");
+        //$.jStorage.set(clave);
+        $("#myModal").on("shown.bs.modal", function () {
+             $("#myInput").focus()
+             //
+             var clave = $("input#telefono").val();
+             $(".modal-body#codigo").append(clave);
+             console.log("trabajando");
+             // storage obtener desde clave
+             $.jStorage.set(clave);
+           });
        }
     });
   });
@@ -306,11 +411,20 @@ $(document).ready(function() {
         alert("Debe ingresar un número de 8 dígitos");
         $("#next").attr("disabled","true");
        }else{
-        $("#next").attr("disabled","flase");
+        $("#next").attr("disabled","false");
+        //$.jStorage.set(clave);
+        $("#myModal").on("shown.bs.modal", function () {
+             $("#myInput").focus()
+             //
+             var clave = $("input#telefono").val();
+             $(".modal-body#codigo").append(clave);
+             console.log("trabajando");
+             // storage obtener desde clave
+             $.jStorage.set(clave);
+           });
        }
     });
   });
-
 
   // VENEZUELA
   $("#ve").click(function(event){
@@ -326,26 +440,33 @@ $(document).ready(function() {
         alert("Debe ingresar un número de 10 dígitos");
         $("#next").attr("disabled","true");
        }else{
-        $("#next").attr("disabled","flase");
+        $("#next").attr("disabled","false");
+        //$.jStorage.set(clave);
+        $("#myModal").on("shown.bs.modal", function () {
+             $("#myInput").focus()
+             //
+             var clave = $("input#telefono").val();
+             $(".modal-body#codigo").append(clave);
+             console.log("trabajando");
+             // storage obtener desde clave
+             $.jStorage.set(clave);
+           });
        }
     });
   });
 
-  //LOCALSTORAHGSAHAFS
+  //LOCALSTORAGE
 
-});
-  	// index2.html
-    //$("input#telefono")
-    $("#generador").click(function(){
-          $("#myModal").on("shown.bs.modal", function () {
-          $("#myInput").focus()
-          //
-          var clave = $("input#telefono").val();
-          $(".modal-body#codigo").append(clave);
-          console.log("trabajando");
-          // storage obtener desde clave
-          $.jStorage.set(clave);
-    });   
-  // Fin index2.html
-})
+    // index2.html
+   //$("input#telefono")
+         $("#myModal").on("shown.bs.modal", function () {
+             $("#myInput").focus()
+             //
+             var clave = $("input#telefono").val();
+             $(".modal-body#codigo").append(clave);
+             console.log("trabajando");
+             // storage obtener desde clave
+             $.jStorage.set(clave);
+           });
+ // Fin index2.html
 });

@@ -47,30 +47,62 @@ nav div.container-fluid{
 	margin-top: 30px;
 }
 
-#probando{
-	background-color: red;
+#elegir{
+	background-color: transparent;
+	border:none;
 	width: 50px;
-
+	margin-left: -40%;
 }
+
+#movil{
+	margin-top: 15%;
+}
+
+/*Estilos de input*/
+input#telefono{
+	width: 200%;
+	height: 5.5em;
+	border:none;
+	border-bottom:2px solid #666;
+}
+
+/*Estilo de codigo de cada país*/
+#codigo{
+	color: #000;
+	font-size: 3.5em;
+	margin-left: -50%;
+}
+
+/*Estilo de mensaje debajo de input*/
+.send{
+	font-size: 1.5em;
+	margin-top: 4%;
+}
+
 /*Estilos banderas*/
 .flag{
-	width: 100%;
+	width: 350%;
 }
 
 .flag.band{
 	width: 5%;
 }
 
-.add-flagg1{
-	background-image: url(../img/banderas/argentina.png);
-}
-
 /*Estilo button next*/
 .next{
-	margin-top: 500px;
-	background-color: #ff05b8;
-	color: #fff;
+
+	background: #FF27B4;
+	padding: 17px;
+	border-color: #41521F;
 	width: 100%;
-	height: 3em;
-	border:none;
+	border-style: none;
+	margin-top:15%;
+	font-size: 17px;
 }
+
+.next a{
+	color: #fff;
+}
+
+
+

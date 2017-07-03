@@ -71,6 +71,7 @@ $("document").ready(function(){
 	  $(this).unbind(event);
 	  $("#bandera").attr("src", op[0]);  // o  $(this).attr("src", nuevaImagen);
 	  $("#codigo").text(code[0]);
+	  $("input#telefono").attr("placeholder","123456789012");
 	});
 
 	$("#bo").click(function(event){
@@ -78,6 +79,7 @@ $("document").ready(function(){
 	  $(this).unbind(event);
 	  $("#bandera").attr("src", op[1]);  // o  $(this).attr("src", nuevaImagen);
 	  $("#codigo").text(code[1]);
+	  $("input#telefono").attr("placeholder","12345678");
 	});
 
 	$("#br").click(function(event){
@@ -85,6 +87,7 @@ $("document").ready(function(){
 	  $(this).unbind(event);
 	  $("#bandera").attr("src", op[2]);  // o  $(this).attr("src", nuevaImagen);
 	  $("#codigo").text(code[2]);
+	  $("input#telefono").attr("placeholder","12345678901");
 	});
 
 	$("#cl").click(function(event){
@@ -99,6 +102,7 @@ $("document").ready(function(){
 	  $(this).unbind(event);
 	  $("#bandera").attr("src", op[4]);  // o  $(this).attr("src", nuevaImagen);
 	  $("#codigo").text(code[4]);
+	  $("input#telefono").attr("placeholder","1234567890");
 	});
 
 	$("#ec").click(function(event){
@@ -113,6 +117,7 @@ $("document").ready(function(){
 	  $(this).unbind(event);
 	  $("#bandera").attr("src", op[6]);  // o  $(this).attr("src", nuevaImagen);
 	  $("#codigo").text(code[6]);
+	  $("input#telefono").attr("placeholder","1234567");
 	});
 
 	$("#me").click(function(event){
@@ -120,6 +125,7 @@ $("document").ready(function(){
 	  $(this).unbind(event);
 	  $("#bandera").attr("src", op[7]);  // o  $(this).attr("src", nuevaImagen);
 	  $("#codigo").text(code[7]);
+	  $("input#telefono").attr("placeholder","123456789012");
 	});
 
 	$("#pa").click(function(event){
@@ -141,6 +147,7 @@ $("document").ready(function(){
 	  $(this).unbind(event);
 	  $("#bandera").attr("src", op[10]);  // o  $(this).attr("src", nuevaImagen);
 	  $("#codigo").text(code[10]);
+	  $("input#telefono").attr("placeholder","1234567");
 	});
 
 	$("#ur").click(function(event){
@@ -148,6 +155,7 @@ $("document").ready(function(){
 	  $(this).unbind(event);
 	  $("#bandera").attr("src", op[11]);  // o  $(this).attr("src", nuevaImagen);
 	  $("#codigo").text(code[11]);
+	  $("input#telefono").attr("placeholder","12345678");
 	});
 
 	$("#ve").click(function(event){
@@ -155,6 +163,7 @@ $("document").ready(function(){
 	  $(this).unbind(event);
 	  $("#bandera").attr("src", op[12]);  // o  $(this).attr("src", nuevaImagen);
 	  $("#codigo").text(code[12]);
+	  $("input#telefono").attr("placeholder","1234567890");
 	});
 
 });

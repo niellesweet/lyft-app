@@ -75,7 +75,7 @@ input#telefono{
 
 /*Estilo de mensaje debajo de input*/
 .send{
-	font-size: 1.5em;
+	font-size: 1.2em;
 	margin-top: 4%;
 }
 
@@ -85,7 +85,7 @@ input#telefono{
 }
 
 .flag.band{
-	width: 5%;
+	width: 10%;
 }
 
 /*Estilo button next*/
@@ -102,6 +102,27 @@ input#telefono{
 
 .next a{
 	color: #fff;
+}
+
+/*Estilos de modal*/
+
+.modal.fade{
+	background-color: #fff;
+}
+
+ul#info-paises li{
+	list-style: none;
+	margin-top: 2em;
+}
+
+ul#info-paises li a{
+	color: #000;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+
+.cerrar{
+	color: #000;
 }
 
 

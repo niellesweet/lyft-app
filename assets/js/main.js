@@ -1,5 +1,7 @@
 $("document").ready(function(){
-	/*var opciones = [
+	/* Quise hacerlo con array pero no pude u.u
+
+	var opciones = [
 		{	"nombre" : "Argentina",
 			"codigo" : "+54",
 			"img" : "assets/img/banderas/argentina.png"},
@@ -65,7 +67,7 @@ $("document").ready(function(){
 	//Arreglo con códigos de países
 	var code = ["+54", "+591", "+55", "+56", "+57", "+593", "+592", "+595", "+51", "+597", "+598", "+58", "+52"];
 
-	//Funciones que al clickear cambia la bandera codigo y placeholder correspondiente al país elegido
+	//Funciones que al clickear cambia la bandera codigo y placeholder correspondiente al país elegido además de activar el boton next si esta correcta la información
 	//ARGENTINA
 	$("#ar").click(function(event){
 	  event.preventDefault();
@@ -302,7 +304,7 @@ $("document").ready(function(){
 	});
 
 
-	// VENEZUEL
+	// VENEZUELA
 	$("#ve").click(function(event){
 	  event.preventDefault();
 	  $(this).unbind(event);
@@ -321,6 +323,7 @@ $("document").ready(function(){
 	  });
 	});
 
+	//LOCALSTORAHGSAHAFS
 
 });
 

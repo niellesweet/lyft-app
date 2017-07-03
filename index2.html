@@ -27,7 +27,33 @@
 		<div class="container">
 			<div class="row text-center">
 				<div class="btn-group">
-					<a class="btn btn-primary"  href="index2-paises.html" id="probando"><span><img id='bandera' class='flag' src="assets/img/banderas/chile.png"></span></a>
+					<a class="btn btn-primary"  href="index2-paises.html" id="probando" data-toggle="modal" data-target="#myModal"><img id='bandera' class='flag' src="assets/img/banderas/chile.png"></a>
+
+			<!--MODAL-->
+					<div class="modal fade" id="myModal" role="dialog">
+						<button type="button" data-dismiss="modal">Close</button>
+						<div class="container-fluid">
+							<div class="row">
+								<div class=" col-sm-12 col-xs-12">
+									<ul id="info-paises">
+										<li ><a href="#" id="ar"><img src="assets/img/banderas/argentina.png" class=" flag band"> Argentina </a></li>
+										<li ><a href="#" id="bo"><img src="assets/img/banderas/bolivia.png" class=" flag band"> Bolivia </a></li>
+										<li ><a href="#" id="br"><img src="assets/img/banderas/brasil.png" class=" flag band"> Brasil </a></li>
+										<li ><a href="#" id="cl"><img src="assets/img/banderas/chile.png" class=" flag band"> Chile </a></li>
+										<li ><a href="#" id="co"><img src="assets/img/banderas/colombia.png" class=" flag band"> Colombia </a></li>
+										<li ><a href="#" id="ec"><img src="assets/img/banderas/ecuador.png" class=" flag band"> Ecuador </a></li>
+										<li ><a href="#" id="gu"><img src="assets/img/banderas/guayana.png" class=" flag band"> Guayana </a></li>
+										<li ><a href="#" id="pa"><img src="assets/img/banderas/paraguay.png" class=" flag band"> Paraguay </a></li>
+										<li ><a href="#" id="pe"><img src="assets/img/banderas/peru.png" class=" flag band"> Perú </a></li>
+										<li ><a href="#" id="su"><img src="assets/img/banderas/surinam.png" class=" flag band"> Surinam </a></li>
+										<li ><a href="#" id="ur"><img src="assets/img/banderas/uruguay.png" class=" flag band"> Uruguay </a></li>
+										<li ><a href="#" id="ve"><img src="assets/img/banderas/venezuela.png" class=" flag band"> Venezuela </a></li>
+										<li ><a href="#" id="me"><img src="assets/img/banderas/mexico.png" class=" flag band"> México </a></li>	
+									</ul>
+								</div>		
+							</div>
+						</div>
+					</div>
 					<a class="btn"  href="#" id="codigo">+56</a>
 					<div class="input-group">
 						<input class="form-control" id="telefono" type="text" placeholder="11111111">

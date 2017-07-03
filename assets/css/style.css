@@ -61,6 +61,10 @@ nav div.container-fluid{
 	width: 5%;
 }
 
+.add-flagg1{
+	background-image: url(../img/banderas/argentina.png);
+}
+
 /*Estilo button next*/
 .next{
 	margin-top: 500px;

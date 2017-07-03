@@ -41,15 +41,107 @@ $("document").ready(function(){
 			"img" : "assets/img/banderas/venezuela.png"},
 	];
 
-	var op = ["src='assets/img/banderas/chile.png'"];*/
+*/
+
+
 //FUNCIONES INDEX2 E INDEX2-PAISES
 
+	var op = [
+	"assets/img/banderas/argentina.png",
+	"assets/img/banderas/bolivia.png",
+	"assets/img/banderas/brasil.png",
+	"assets/img/banderas/chile.png",
+	"assets/img/banderas/colombia.png",
+	"assets/img/banderas/ecuador.png",
+	"assets/img/banderas/guayana.png",
+	"assets/img/banderas/mexico.png",
+	"assets/img/banderas/paraguay.png",
+	"assets/img/banderas/peru.png",
+	"assets/img/banderas/surinam.png",
+	"assets/img/banderas/uruguay.png",
+	"assets/img/banderas/venezuela.png"
+	];
 
-//Trato de cambiar imagen de bandera al seleccionar y no hay ningun cambio ni error en consola
-	$("#ar").on("click",function(){
-		$("<div><img id='bandera' class='flag' src='assets/img/banderas/argentina.png></div>").replaceAll("#probando");
+	$("#ar").click(function(event){
+	  event.preventDefault();
+	  $(this).unbind(event);
+	  $("#bandera").attr("src", op[0]);  // o  $(this).attr("src", nuevaImagen);
 	});
+
+	$("#bo").click(function(event){
+	  event.preventDefault();
+	  $(this).unbind(event);
+	  $("#bandera").attr("src", op[1]);  // o  $(this).attr("src", nuevaImagen);
+	});
+
+	$("#br").click(function(event){
+	  event.preventDefault();
+	  $(this).unbind(event);
+	  $("#bandera").attr("src", op[2]);  // o  $(this).attr("src", nuevaImagen);
+	});
+
+	$("#cl").click(function(event){
+	  event.preventDefault();
+	  $(this).unbind(event);
+	  $("#bandera").attr("src", op[3]);  // o  $(this).attr("src", nuevaImagen);
+	});
+
+	$("#co").click(function(event){
+	  event.preventDefault();
+	  $(this).unbind(event);
+	  $("#bandera").attr("src", op[4]);  // o  $(this).attr("src", nuevaImagen);
+	});
+
+	$("#ec").click(function(event){
+	  event.preventDefault();
+	  $(this).unbind(event);
+	  $("#bandera").attr("src", op[5]);  // o  $(this).attr("src", nuevaImagen);
+	});
+
+	$("#gu").click(function(event){
+	  event.preventDefault();
+	  $(this).unbind(event);
+	  $("#bandera").attr("src", op[6]);  // o  $(this).attr("src", nuevaImagen);
+	});
+
+	$("#me").click(function(event){
+	  event.preventDefault();
+	  $(this).unbind(event);
+	  $("#bandera").attr("src", op[7]);  // o  $(this).attr("src", nuevaImagen);
+	});
+
+	$("#pa").click(function(event){
+	  event.preventDefault();
+	  $(this).unbind(event);
+	  $("#bandera").attr("src", op[8]);  // o  $(this).attr("src", nuevaImagen);
+	});
+
+	$("#pe").click(function(event){
+	  event.preventDefault();
+	  $(this).unbind(event);
+	  $("#bandera").attr("src", op[9]);  // o  $(this).attr("src", nuevaImagen);
+	});
+
+	$("#su").click(function(event){
+	  event.preventDefault();
+	  $(this).unbind(event);
+	  $("#bandera").attr("src", op[10]);  // o  $(this).attr("src", nuevaImagen);
+	});
+
+	$("#ur").click(function(event){
+	  event.preventDefault();
+	  $(this).unbind(event);
+	  $("#bandera").attr("src", op[11]);  // o  $(this).attr("src", nuevaImagen);
+	});
+
+	$("#ve").click(function(event){
+	  event.preventDefault();
+	  $(this).unbind(event);
+	  $("#bandera").attr("src", op[12]);  // o  $(this).attr("src", nuevaImagen);
+	});
+
 });
+
 
 
 

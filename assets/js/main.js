@@ -1,6 +1,5 @@
+/* Geolocalización */
 
-
-/* MAPA */
 function initMap(){
 
     /* RUTA para calcular la ruta entre dos puntos */
@@ -88,3 +87,5 @@ function initMap(){
       });
   }
 }
+
+/* FIN Geolocalización */

@@ -6,4 +6,9 @@ $(document).ready(function() {
     window.location.href = "index2.html";
     });
   	// Fin index.html
+  	// index2.html
+  	$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').focus()
+  // Fin index2.html
+})
 });

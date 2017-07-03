@@ -1,3 +1,80 @@
 *{
 	font-family: 'Montserrat', sans-serif;
 }
+/* boceto parte de cony y pauli */
+
+
+#alert{
+	width: 250px;
+	padding: 5px;
+	background-color: white;
+	color: red;
+}
+
+.navbar{
+	background-color: transparent;
+	padding:1%;
+	
+}
+
+.titulo{
+	font-size: 22px;
+}
+
+h5{
+	font-size: 13px;
+	text-align: center;
+}
+
+#nombre,
+#email{
+	padding: 7px;
+	width: 340px;
+	margin:10px;
+}
+
+button{
+	background: #FF27B4;
+	color: #fff;
+	padding: 17px;
+	border-color: #41521F;
+	width: 100%;
+	border-style: none;
+	margin-top:10px;
+	font-size: 17px;
+	
+}
+
+ #aceptar{
+	margin:20px;
+}
+
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .fa {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+  color: #595658;
+  font-size: 25px;
+}
+
+/* align icon */
+.left-addon .fa  { left:  12px;}
+.left-addon .fa{ top: 6px; }
+
+/* add padding  */
+.left-addon input  { 
+	padding-left:  30px; 
+}
+.right-addon input {
+ padding-right: 30px; 
+}
+
+#aceptar{
+	background-color: blue;
+}
+

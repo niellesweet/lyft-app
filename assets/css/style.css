@@ -1,7 +1,8 @@
 *{
 	font-family: 'Montserrat', sans-serif;
 }
-/* boceto parte de cony y pauli */
+
+/*ESTILOS INDEX3*/
 
 
 #alert{
@@ -53,7 +54,7 @@ button{
     position: relative; 
 }
 
-/* style icon */
+
 .inner-addon .fa {
   position: absolute;
   padding: 10px;
@@ -62,11 +63,11 @@ button{
   font-size: 25px;
 }
 
-/* align icon */
+
 .left-addon .fa  { left:  12px;}
 .left-addon .fa{ top: 6px; }
 
-/* add padding  */
+
 .left-addon input  { 
 	padding-left:  30px; 
 }
@@ -77,4 +78,6 @@ button{
 #aceptar{
 	background-color: blue;
 }
+
+/*FIN ESTILO INDEX3*/
 

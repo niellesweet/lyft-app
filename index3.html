@@ -17,8 +17,8 @@
 			<div class="hidden-lg hidden-md col-sm-4 col-xs-4">
 				
 			</div>
-			<div class="hidden-lg hidden-md col-sm-4 col-xs-4">
-				<p class="navbar-text text-center">Sign up<br><small>Join now for free ride credit</small></p>
+			<div class="hidden-lg hidden-md col-sm-12 col-xs-12">
+				<p class="titulo text-center">Sign up<br></p><h5>Join now for free ride credit</h5>
 			</div>
 		</div>
 	</nav>
@@ -26,18 +26,24 @@
 	<section id="formulario">
 		<div class="container">
 			<div class="row">
-				<div class="hidden-lg hidden-md col-sm-6 col-xs-6">
-					<i class="fa fa-user-circle-o" aria-hidden="true"></i>
-					<input type="text" id="nombre"  value="" placeholder="First Name     Last Name">
-					<div id="mensaje1" class="alerta">Indica tu nombre</div>
+				<div class="hidden-lg hidden-md col-sm-12 col-xs-12 text-center">
 
+					<div class="inner-addon left-addon">
+					<i class="fa fa-user-circle-o icon-user" aria-hidden="true"></i>
+					<input type="text" id="nombre"  value="" onblur="javascript:validarNombre();" placeholder="        First Name     Last Name">
+					</div>
+
+					<div class="inner-addon left-addon">
+					<i class="fa fa-envelope-o" aria-hidden="true"></i>
+					<input type="text" id="email" value="" placeholder="        Email" onblur="javascript:validar();">
+					</div>
 					
-					<input type="text" id="email" placeholder="Email">
-					<div id="mensaje2" class="alerta">Indica un mail</div>
 
-					<input type="checkbox"> I agree to Lyft's <a href="#">Terms of Services</a><br>
+					<input type="checkbox" name="aceptar" id="aceptar"> I agree to Lyft's <a href="#">Terms of Services</a><br>
 
 					<button type="submit" id="enviar" class="boton-next">Next</button>
+					<div id="alert"></div>
+
 
 				</div>
 				

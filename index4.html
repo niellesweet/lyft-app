@@ -2,13 +2,72 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Geolocalización</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- Viewport -->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minium-scale=1.0">
+	<!-- Bootstrap Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Font Awesome -->
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="assets/css/media.css">
 </head>
 <body>
-	
+	<!-- Sección Mapa -->
+	<section> <!-- ubicación del mapa -->
+		<div class="container"> <!-- caja de: usuario, logo, free rides -->
+			<div class="row"><!-- división en 3 partes para: usuario, logo, free rides -->
+				<div class="hidden-lg hidden-md hidden-sm col-xs-4">
+					<a href="#" type="submit"><i class="fa fa-user-circle-o perfilGEO" aria-hidden="true"></i></a>
+				</div>
+				<div class="hidden-lg hidden-md hidden-sm col-xs-4">
+					<img src="assets/img/logo-whitecopia.png" class="img-responsive logo">
+				</div>
+				<div class="hidden-lg hidden-md hidden-sm col-xs-4 regalo">
+					<a href="#"><i class="fa fa-gift regalo2" aria-hidden="true"></i></a>
+				</div>
+			</div>
+		</div>
+		<div class="container vacio"> <!-- caja espacio grande -->
+
+		</div>
+		<div class="container"> <!-- caja de: icono brujula -->
+			<div class="row">
+				<div class="hidden-lg hidden-md hidden-sm col-xs-12">
+					<a href="#"><i class="fa fa-paper-plane-o brujula" aria-hidden="true"></i></a>
+				</div>
+			</div>
+		</div>
+		<div class="container"> <!-- caja de: input DESTINO-->
+			<div class="row">
+				<div class="hidden-lg hidden-md hidden-sm col-xs-12">
+					<form class="form-horizontal" role="form" id="BudgetForm">
+						<div class="form-group">
+			            	<input type="text" id="destino" placeholder="Introduce su destino" class="form-control inputGEO">
+			            </div>					
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="container"> <!-- caja de: button RUTA-->
+			<div class="row">
+				<div class="hidden-lg hidden-md hidden-sm col-xs-12">
+					<button id="ruta" type="submit" class="form-control buttonGEO">Set pickup</button>
+				</div>
+			</div>
+		</div>
+	</section>
+		<!-- MAPA -->
+	<div id="map"></div>
+	<!-- FIN Sección Mapa -->
+
+	<!-- Maps Clave : AIzaSyC30RvIMIe_xFHGtv-qyqpAKlZz9kuJ8w4  -->
+	<!-- Autocomplete -->
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC30RvIMIe_xFHGtv-qyqpAKlZz9kuJ8w4&callback=initMap&libraries=places"></script>
+	<!-- Bootstrap Latest compiled and minified JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="assets/js/main.js"></script>
 </body>
 </html>

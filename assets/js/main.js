@@ -66,105 +66,261 @@ $("document").ready(function(){
 	var code = ["+54", "+591", "+55", "+56", "+57", "+593", "+592", "+595", "+51", "+597", "+598", "+58", "+52"];
 
 	//Funciones que al clickear cambia la bandera codigo y placeholder correspondiente al país elegido
+	//ARGENTINA
 	$("#ar").click(function(event){
 	  event.preventDefault();
 	  $(this).unbind(event);
 	  $("#bandera").attr("src", op[0]);  // o  $(this).attr("src", nuevaImagen);
 	  $("#codigo").text(code[0]);
 	  $("input#telefono").attr("placeholder","123456789012");
+
+	  $("#next").click(function(e){
+	  	e.preventDefault();
+	  	 if($("input#telefono").val() == "" || $("input#telefono").length != 12 || isNaN($("input#telefono").val())){
+	  	 	alert("Debe ingresar un número de 12 dígitos");
+	  	 	$("#next").attr("disabled","true");
+	  	 }else{
+	  	 	$("#next").attr("disabled","flase");
+	  	 }
+	  });
 	});
 
+
+	//BOLIVIA
 	$("#bo").click(function(event){
 	  event.preventDefault();
 	  $(this).unbind(event);
 	  $("#bandera").attr("src", op[1]);  // o  $(this).attr("src", nuevaImagen);
 	  $("#codigo").text(code[1]);
 	  $("input#telefono").attr("placeholder","12345678");
+
+	  $("#next").click(function(e){
+	  	e.preventDefault();
+	  	 if($("input#telefono").val() == "" || $("input#telefono").length != 8 || isNaN($("input#telefono").val())){
+	  	 	alert("Debe ingresar un número de 8 dígitos");
+	  	 	$("#next").attr("disabled","true");
+	  	 }else{
+	  	 	$("#next").attr("disabled","flase");
+	  	 }
+	  });
 	});
 
+
+	//BRASIL
 	$("#br").click(function(event){
 	  event.preventDefault();
 	  $(this).unbind(event);
 	  $("#bandera").attr("src", op[2]);  // o  $(this).attr("src", nuevaImagen);
 	  $("#codigo").text(code[2]);
 	  $("input#telefono").attr("placeholder","12345678901");
+
+	  $("#next").click(function(e){
+	  	e.preventDefault();
+	  	 if($("input#telefono").val() == "" || $("input#telefono").length != 11 || isNaN($("input#telefono").val())){
+	  	 	alert("Debe ingresar un número de 11 dígitos");
+	  	 	$("#next").attr("disabled","true");
+	  	 }else{
+	  	 	$("#next").attr("disabled","flase");
+	  	 }
+	  });
 	});
 
+
+	//CHILE
 	$("#cl").click(function(event){
 	  event.preventDefault();
 	  $(this).unbind(event);
 	  $("#bandera").attr("src", op[3]);  // o  $(this).attr("src", nuevaImagen);
 	  $("#codigo").text(code[3]);
+
+	  $("#next").click(function(e){
+	  	e.preventDefault();
+	  	 if($("input#telefono").val() == "" || $("input#telefono").length != 9 || isNaN($("input#telefono").val())){
+	  	 	alert("Debe ingresar un número de 9 dígitos");
+	  	 	$("#next").attr("disabled","true");
+	  	 }else{
+	  	 	$("#next").attr("disabled","flase");
+	  	 }
+	  });
 	});
 
+
+	// COLOMBIA
 	$("#co").click(function(event){
 	  event.preventDefault();
 	  $(this).unbind(event);
 	  $("#bandera").attr("src", op[4]);  // o  $(this).attr("src", nuevaImagen);
 	  $("#codigo").text(code[4]);
 	  $("input#telefono").attr("placeholder","1234567890");
+
+	  $("#next").click(function(e){
+	  	e.preventDefault();
+	  	 if($("input#telefono").val() == "" || $("input#telefono").length != 10 || isNaN($("input#telefono").val())){
+	  	 	alert("Debe ingresar un número de 10 dígitos");
+	  	 	$("#next").attr("disabled","true");
+	  	 }else{
+	  	 	$("#next").attr("disabled","flase");
+	  	 }
+	  });
 	});
 
+
+	// ECUADOR
 	$("#ec").click(function(event){
 	  event.preventDefault();
 	  $(this).unbind(event);
 	  $("#bandera").attr("src", op[5]);  // o  $(this).attr("src", nuevaImagen);
 	  $("#codigo").text(code[5]);
+
+	  $("#next").click(function(e){
+	  	e.preventDefault();
+	  	 if($("input#telefono").val() == "" || $("input#telefono").length != 9 || isNaN($("input#telefono").val())){
+	  	 	alert("Debe ingresar un número de 9 dígitos");
+	  	 	$("#next").attr("disabled","true");
+	  	 }else{
+	  	 	$("#next").attr("disabled","flase");
+	  	 }
+	  });
 	});
 
+
+	//GUAYANA
 	$("#gu").click(function(event){
 	  event.preventDefault();
 	  $(this).unbind(event);
 	  $("#bandera").attr("src", op[6]);  // o  $(this).attr("src", nuevaImagen);
 	  $("#codigo").text(code[6]);
 	  $("input#telefono").attr("placeholder","1234567");
+
+	  $("#next").click(function(e){
+	  	e.preventDefault();
+	  	 if($("input#telefono").val() == "" || $("input#telefono").length != 7 || isNaN($("input#telefono").val())){
+	  	 	alert("Debe ingresar un número de 7 dígitos");
+	  	 	$("#next").attr("disabled","true");
+	  	 }else{
+	  	 	$("#next").attr("disabled","flase");
+	  	 }
+	  });
 	});
 
+
+	//MÉXICO
 	$("#me").click(function(event){
 	  event.preventDefault();
 	  $(this).unbind(event);
 	  $("#bandera").attr("src", op[7]);  // o  $(this).attr("src", nuevaImagen);
 	  $("#codigo").text(code[7]);
 	  $("input#telefono").attr("placeholder","123456789012");
+
+	  $("#next").click(function(e){
+	  	e.preventDefault();
+	  	 if($("input#telefono").val() == "" || $("input#telefono").length != 12 || isNaN($("input#telefono").val())){
+	  	 	alert("Debe ingresar un número de 12 dígitos");
+	  	 	$("#next").attr("disabled","true");
+	  	 }else{
+	  	 	$("#next").attr("disabled","flase");
+	  	 }
+	  });
 	});
 
+
+	// PARAGUAY
 	$("#pa").click(function(event){
 	  event.preventDefault();
 	  $(this).unbind(event);
 	  $("#bandera").attr("src", op[8]);  // o  $(this).attr("src", nuevaImagen);
 	  $("#codigo").text(code[8]);
+
+	  $("#next").click(function(e){
+	  	e.preventDefault();
+	  	 if($("input#telefono").val() == "" || $("input#telefono").length != 9 || isNaN($("input#telefono").val())){
+	  	 	alert("Debe ingresar un número de 9 dígitos");
+	  	 	$("#next").attr("disabled","true");
+	  	 }else{
+	  	 	$("#next").attr("disabled","flase");
+	  	 }
+	  });
 	});
 
+
+	//PERÚ
 	$("#pe").click(function(event){
 	  event.preventDefault();
 	  $(this).unbind(event);
 	  $("#bandera").attr("src", op[9]);  // o  $(this).attr("src", nuevaImagen);
 	  $("#codigo").text(code[9]);
+
+	  $("#next").click(function(e){
+	  	e.preventDefault();
+	  	 if($("input#telefono").val() == "" || $("input#telefono").length != 9 || isNaN($("input#telefono").val())){
+	  	 	alert("Debe ingresar un número de 9 dígitos");
+	  	 	$("#next").attr("disabled","true");
+	  	 }else{
+	  	 	$("#next").attr("disabled","flase");
+	  	 }
+	  });
 	});
 
+
+	//SURINAM
 	$("#su").click(function(event){
 	  event.preventDefault();
 	  $(this).unbind(event);
 	  $("#bandera").attr("src", op[10]);  // o  $(this).attr("src", nuevaImagen);
 	  $("#codigo").text(code[10]);
 	  $("input#telefono").attr("placeholder","1234567");
+
+	  $("#next").click(function(e){
+	  	e.preventDefault();
+	  	 if($("input#telefono").val() == "" || $("input#telefono").length != 7|| isNaN($("input#telefono").val())){
+	  	 	alert("Debe ingresar un número de 7dígitos");
+	  	 	$("#next").attr("disabled","true");
+	  	 }else{
+	  	 	$("#next").attr("disabled","flase");
+	  	 }
+	  });
 	});
 
+
+	// URUGUAY
 	$("#ur").click(function(event){
 	  event.preventDefault();
 	  $(this).unbind(event);
 	  $("#bandera").attr("src", op[11]);  // o  $(this).attr("src", nuevaImagen);
 	  $("#codigo").text(code[11]);
 	  $("input#telefono").attr("placeholder","12345678");
+
+	  $("#next").click(function(e){
+	  	e.preventDefault();
+	  	 if($("input#telefono").val() == "" || $("input#telefono").length != 8 || isNaN($("input#telefono").val())){
+	  	 	alert("Debe ingresar un número de 8 dígitos");
+	  	 	$("#next").attr("disabled","true");
+	  	 }else{
+	  	 	$("#next").attr("disabled","flase");
+	  	 }
+	  });
 	});
 
+
+	// VENEZUEL
 	$("#ve").click(function(event){
 	  event.preventDefault();
 	  $(this).unbind(event);
 	  $("#bandera").attr("src", op[12]);  // o  $(this).attr("src", nuevaImagen);
 	  $("#codigo").text(code[12]);
 	  $("input#telefono").attr("placeholder","1234567890");
+
+	  $("#next").click(function(e){
+	  	e.preventDefault();
+	  	 if($("input#telefono").val() == "" || $("input#telefono").length != 10 || isNaN($("input#telefono").val())){
+	  	 	alert("Debe ingresar un número de 10 dígitos");
+	  	 	$("#next").attr("disabled","true");
+	  	 }else{
+	  	 	$("#next").attr("disabled","flase");
+	  	 }
+	  });
 	});
+
 
 });
 

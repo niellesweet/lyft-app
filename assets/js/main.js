@@ -45,7 +45,7 @@ $("document").ready(function(){
 
 
 //FUNCIONES INDEX2 E INDEX2-PAISES
-
+	//Arreglo con direccion de imagenes de banderas
 	var op = [
 	"assets/img/banderas/argentina.png",
 	"assets/img/banderas/bolivia.png",
@@ -62,82 +62,99 @@ $("document").ready(function(){
 	"assets/img/banderas/venezuela.png"
 	];
 
+	//Arreglo con códigos de países
+	var code = ["+54", "+591", "+55", "+56", "+57", "+593", "+592", "+595", "+51", "+597", "+598", "+58", "+52"];
+
+	//Funciones que al clickear cambia la bandera codigo y placeholder correspondiente al país elegido
 	$("#ar").click(function(event){
 	  event.preventDefault();
 	  $(this).unbind(event);
 	  $("#bandera").attr("src", op[0]);  // o  $(this).attr("src", nuevaImagen);
+	  $("#codigo").text(code[0]);
 	});
 
 	$("#bo").click(function(event){
 	  event.preventDefault();
 	  $(this).unbind(event);
 	  $("#bandera").attr("src", op[1]);  // o  $(this).attr("src", nuevaImagen);
+	  $("#codigo").text(code[1]);
 	});
 
 	$("#br").click(function(event){
 	  event.preventDefault();
 	  $(this).unbind(event);
 	  $("#bandera").attr("src", op[2]);  // o  $(this).attr("src", nuevaImagen);
+	  $("#codigo").text(code[2]);
 	});
 
 	$("#cl").click(function(event){
 	  event.preventDefault();
 	  $(this).unbind(event);
 	  $("#bandera").attr("src", op[3]);  // o  $(this).attr("src", nuevaImagen);
+	  $("#codigo").text(code[3]);
 	});
 
 	$("#co").click(function(event){
 	  event.preventDefault();
 	  $(this).unbind(event);
 	  $("#bandera").attr("src", op[4]);  // o  $(this).attr("src", nuevaImagen);
+	  $("#codigo").text(code[4]);
 	});
 
 	$("#ec").click(function(event){
 	  event.preventDefault();
 	  $(this).unbind(event);
 	  $("#bandera").attr("src", op[5]);  // o  $(this).attr("src", nuevaImagen);
+	  $("#codigo").text(code[5]);
 	});
 
 	$("#gu").click(function(event){
 	  event.preventDefault();
 	  $(this).unbind(event);
 	  $("#bandera").attr("src", op[6]);  // o  $(this).attr("src", nuevaImagen);
+	  $("#codigo").text(code[6]);
 	});
 
 	$("#me").click(function(event){
 	  event.preventDefault();
 	  $(this).unbind(event);
 	  $("#bandera").attr("src", op[7]);  // o  $(this).attr("src", nuevaImagen);
+	  $("#codigo").text(code[7]);
 	});
 
 	$("#pa").click(function(event){
 	  event.preventDefault();
 	  $(this).unbind(event);
 	  $("#bandera").attr("src", op[8]);  // o  $(this).attr("src", nuevaImagen);
+	  $("#codigo").text(code[8]);
 	});
 
 	$("#pe").click(function(event){
 	  event.preventDefault();
 	  $(this).unbind(event);
 	  $("#bandera").attr("src", op[9]);  // o  $(this).attr("src", nuevaImagen);
+	  $("#codigo").text(code[9]);
 	});
 
 	$("#su").click(function(event){
 	  event.preventDefault();
 	  $(this).unbind(event);
 	  $("#bandera").attr("src", op[10]);  // o  $(this).attr("src", nuevaImagen);
+	  $("#codigo").text(code[10]);
 	});
 
 	$("#ur").click(function(event){
 	  event.preventDefault();
 	  $(this).unbind(event);
 	  $("#bandera").attr("src", op[11]);  // o  $(this).attr("src", nuevaImagen);
+	  $("#codigo").text(code[11]);
 	});
 
 	$("#ve").click(function(event){
 	  event.preventDefault();
 	  $(this).unbind(event);
 	  $("#bandera").attr("src", op[12]);  // o  $(this).attr("src", nuevaImagen);
+	  $("#codigo").text(code[12]);
 	});
 
 });

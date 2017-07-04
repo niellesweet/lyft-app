@@ -1,4 +1,5 @@
 $("document").ready(function(){
+
 	/* Quise hacerlo con array pero no pude u.u
 
 	var opciones = [
@@ -82,7 +83,8 @@ $("document").ready(function(){
 	  	 	alert("Debe ingresar un número de 12 dígitos");
 	  	 	$("#next").attr("disabled","true");
 	  	 }else{
-	  	 	$("#next").attr("disabled","flase");
+	  	 	$("#next").attr("disabled","false");
+
 	  	 }
 	  });
 	});
@@ -102,7 +104,7 @@ $("document").ready(function(){
 	  	 	alert("Debe ingresar un número de 8 dígitos");
 	  	 	$("#next").attr("disabled","true");
 	  	 }else{
-	  	 	$("#next").attr("disabled","flase");
+	  	 	$("#next").attr("disabled","false");
 	  	 }
 	  });
 	});
@@ -122,7 +124,7 @@ $("document").ready(function(){
 	  	 	alert("Debe ingresar un número de 11 dígitos");
 	  	 	$("#next").attr("disabled","true");
 	  	 }else{
-	  	 	$("#next").attr("disabled","flase");
+	  	 	$("#next").attr("disabled","false");
 	  	 }
 	  });
 	});
@@ -141,7 +143,7 @@ $("document").ready(function(){
 	  	 	alert("Debe ingresar un número de 9 dígitos");
 	  	 	$("#next").attr("disabled","true");
 	  	 }else{
-	  	 	$("#next").attr("disabled","flase");
+	  	 	$("#next").attr("disabled","false");
 	  	 }
 	  });
 	});
@@ -161,7 +163,7 @@ $("document").ready(function(){
 	  	 	alert("Debe ingresar un número de 10 dígitos");
 	  	 	$("#next").attr("disabled","true");
 	  	 }else{
-	  	 	$("#next").attr("disabled","flase");
+	  	 	$("#next").attr("disabled","false");
 	  	 }
 	  });
 	});
@@ -180,7 +182,7 @@ $("document").ready(function(){
 	  	 	alert("Debe ingresar un número de 9 dígitos");
 	  	 	$("#next").attr("disabled","true");
 	  	 }else{
-	  	 	$("#next").attr("disabled","flase");
+	  	 	$("#next").attr("disabled","false");
 	  	 }
 	  });
 	});
@@ -200,7 +202,7 @@ $("document").ready(function(){
 	  	 	alert("Debe ingresar un número de 7 dígitos");
 	  	 	$("#next").attr("disabled","true");
 	  	 }else{
-	  	 	$("#next").attr("disabled","flase");
+	  	 	$("#next").attr("disabled","false");
 	  	 }
 	  });
 	});
@@ -220,7 +222,7 @@ $("document").ready(function(){
 	  	 	alert("Debe ingresar un número de 12 dígitos");
 	  	 	$("#next").attr("disabled","true");
 	  	 }else{
-	  	 	$("#next").attr("disabled","flase");
+	  	 	$("#next").attr("disabled","false");
 	  	 }
 	  });
 	});
@@ -239,7 +241,7 @@ $("document").ready(function(){
 	  	 	alert("Debe ingresar un número de 9 dígitos");
 	  	 	$("#next").attr("disabled","true");
 	  	 }else{
-	  	 	$("#next").attr("disabled","flase");
+	  	 	$("#next").attr("disabled","false");
 	  	 }
 	  });
 	});
@@ -258,7 +260,7 @@ $("document").ready(function(){
 	  	 	alert("Debe ingresar un número de 9 dígitos");
 	  	 	$("#next").attr("disabled","true");
 	  	 }else{
-	  	 	$("#next").attr("disabled","flase");
+	  	 	$("#next").attr("disabled","false");
 	  	 }
 	  });
 	});
@@ -278,7 +280,7 @@ $("document").ready(function(){
 	  	 	alert("Debe ingresar un número de 7dígitos");
 	  	 	$("#next").attr("disabled","true");
 	  	 }else{
-	  	 	$("#next").attr("disabled","flase");
+	  	 	$("#next").attr("disabled","false");
 	  	 }
 	  });
 	});
@@ -298,7 +300,7 @@ $("document").ready(function(){
 	  	 	alert("Debe ingresar un número de 8 dígitos");
 	  	 	$("#next").attr("disabled","true");
 	  	 }else{
-	  	 	$("#next").attr("disabled","flase");
+	  	 	$("#next").attr("disabled","false");
 	  	 }
 	  });
 	});
@@ -318,12 +320,12 @@ $("document").ready(function(){
 	  	 	alert("Debe ingresar un número de 10 dígitos");
 	  	 	$("#next").attr("disabled","true");
 	  	 }else{
-	  	 	$("#next").attr("disabled","flase");
+	  	 	$("#next").attr("disabled","false");
 	  	 }
 	  });
 	});
 
-	//LOCALSTORAHGSAHAFS
+	//LOCALSTORAGE
 
 });
 

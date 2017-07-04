@@ -4,9 +4,6 @@
 	font-family: 'Montserrat', sans-serif;
 }
 
-/* boceto parte de cony y pauli */
-
-/*ESTILOS INDEX3*/
 /*reset margenes*/
 body {
 	margin: 0 auto;
@@ -81,6 +78,7 @@ nav div.container-fluid{
 	color: #000;
 	margin-top: 30px;
 }
+
 #elegir{
 	background-color: transparent;
 	border:none;
@@ -105,7 +103,7 @@ input#telefono{
 }
 /*Estilo de mensaje debajo de input*/
 .send{
-	font-size: 1.2em;
+	font-size: 0.7em;
 	margin-top: 4%;
 }
 /*Estilos banderas*/
@@ -115,6 +113,7 @@ input#telefono{
 .flag.band{
 	width: 10%;
 }
+
 /*Estilo button next*/
 .next{
 	background: #FF27B4;
@@ -128,14 +127,18 @@ input#telefono{
 .next a{
 	color: #fff;
 }
+
 /*Estilos de modal*/
+
 .modal.fade{
 	background-color: #fff;
 }
+
 ul#info-paises li{
 	list-style: none;
 	margin-top: 2em;
 }
+
 ul#info-paises li a{
 	color: #000;
 	font-size: 1.5em;
@@ -335,4 +338,3 @@ li  a:hover{
 	white-space: nowrap;
 }
 /* FIN Geolocalización */
-

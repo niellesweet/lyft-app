@@ -61,6 +61,7 @@
 input::-webkit-input-placeholder {
 	color: gray;
 	text-align: center;
+
 }
 
 input[placeholder]{
@@ -92,7 +93,9 @@ input[placeholder]{
 }
 
 
-
+.caja{
+	padding: 30px 140px;
+}
 .caja-login{
 	width: 305px;
 	padding: 10px;
@@ -117,4 +120,14 @@ li  a:hover{
 
 	text-decoration: none;
 	color: #fb0df4;
+}
+
+.dropdown-menu > li > a:hover {
+	display: block;
+	padding: 3px 20px;
+	clear: both;
+	font-weight: 400;
+	line-height: 1.42857143;
+	color: #fa08d8;
+	white-space: nowrap;
 }

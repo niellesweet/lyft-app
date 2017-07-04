@@ -3,12 +3,70 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="assets/css/media.css">
 </head>
+
 <body>
-	
-	<script src="assets/js/main.js"></script>
+
+
+<!-- boceto parte de cony y pauli -->
+
+
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="hidden-lg hidden-md col-sm-4 col-xs-4">
+				
+			</div>
+		</div>
+           <!--cony :aqui agrege boton -->
+			<div class="hidden-lg hidden-md col-sm-12 col-xs-12">
+			<!-- aca iria el icono para retroceder-->
+			 	    <a href="index2.html" class="glyphicon glyphicon-chevron-left"></a>
+            </div>
+            <!--cony:fin-->
+				<p class="titulo text-center">Sign up<br></p><h5>Join now for free ride credit</h5>
+			</div>
+		</div>
+	</nav>
+
+	<section id="formulario">
+		<div class="container">
+			<div class="row">
+				<div class="hidden-lg hidden-md col-sm-12 col-xs-12 text-center">
+
+					<div class="inner-addon left-addon">
+					<i class="fa fa-user-circle-o icon-user" aria-hidden="true"></i>
+					<input type="text" id="nombre"  value="" onblur="javascript:validarNombre();" placeholder="     First Name     Last Name">
+					     <!--con onblur: llamo desde el html la fx validar() de js-->
+					</div>
+
+					<div class="inner-addon left-addon">
+					<i class="fa fa-envelope-o" aria-hidden="true"></i>
+					<input type="text" id="email" value="" placeholder="     Email" onblur="javascript:validar();">
+					</div>
+					
+
+					<input type="checkbox" name="aceptar" id="aceptar"> I agree to Lyft's <a href="#">Terms of Services</a><br>
+
+					<button type="submit" id="enviar" class="boton-next">Next</button>
+					<div id="alert"></div>
+
+
+				</div>
+				
+			</div>
+			
+		</div>
+
+	</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script src="assets/js/main.js"></script>
 </body>
 </html>

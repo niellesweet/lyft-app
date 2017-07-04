@@ -52,7 +52,7 @@ p .navbar-text.text-center, .country{
     left: 50%;
     text-align: center;
     color: #000;
-    font-size: 2.5em;
+    font-size: 2em;
     margin-top: 30px;
 }
 .navbar-default{
@@ -61,7 +61,7 @@ p .navbar-text.text-center, .country{
 }
 .navbar-default .navbar-text {
     color: #000;
-    font-size: 2.5em;
+    font-size: 2rem;
 }
 nav div.container-fluid{
 	border-bottom: 1px solid #666;
@@ -90,7 +90,7 @@ nav div.container-fluid{
 }
 /*Estilos de input*/
 input#telefono{
-	width: 200%;
+	width: 150%;
 	height: 5.5em;
 	border:none;
 	border-bottom:2px solid #666;
@@ -98,7 +98,7 @@ input#telefono{
 /*Estilo de codigo de cada país*/
 #codigo{
 	color: #000;
-	font-size: 3.5em;
+	font-size: 2em;
 	margin-left: -50%;
 }
 /*Estilo de mensaje debajo de input*/
@@ -108,7 +108,8 @@ input#telefono{
 }
 /*Estilos banderas*/
 .flag{
-	width: 350%;
+	width: 200%;
+	margin-left: 50px;
 }
 .flag.band{
 	width: 10%;

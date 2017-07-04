@@ -1,3 +1,28 @@
+
+/* boceto parte de cony y pauli */
+/*funcion index3
+/*
+$(document).ready(function(){
+
+	$("#enviar").click(function(){
+		var name = $("#nombre").val();
+		var correo = $("#email").val();
+
+		if(name == ""){
+			$('#alert').html('debes  ingresar tu nombre').slideDown(500);
+			$('#nombre').focus();
+			return false;
+		}else{
+      $('alert').html('').slideUp(300);
+       }
+
+}
+	});
+
+
+});
+
+*/
   /* Quise hacerlo con array pero no pude u.u
 
   var opciones = [
@@ -464,7 +489,6 @@
  // Fin index2.html
 });
 // parte de pauli y cony para html 3
-
 function validarNombre(){
    var nombre = $("#nombre").val();
    
@@ -481,6 +505,7 @@ function validarNombre(){
 
 
 }
+
 //cony: funcion validador para q el mail tenga @ y cl o com.
 function validador(email){
    var tester= /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
@@ -510,8 +535,6 @@ function validar(){
    }else{
       $('#alert').html('').slideUp(300);
    }
-  
-
 }
 
 $(document).ready(function() {
@@ -526,6 +549,21 @@ $(document).ready(function() {
 });
 
  //cony :aqui agrege local storage
+
+//almacena datos 
+$("#submit").click(function() {
+
+var nombre = $('#nombre').val();
+var email = $('#email').val();
+//El método trim () elimina espacios en blanco de ambos lados de una cadena.
+if($.trim('#nombre') == '' || $.trim('#email')== ''){
+  $('')
+}
+
+
+}
+
+//cony: fin local storage
 $.jStorage.set(nombre, email);
 
 $("document").ready(function(){

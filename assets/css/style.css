@@ -3,6 +3,10 @@
 	padding: 0;
 	font-family: 'Montserrat', sans-serif;
 }
+
+/* boceto parte de cony y pauli */
+
+/*ESTILOS INDEX3*/
 /*reset margenes*/
 body {
 	margin: 0 auto;
@@ -152,19 +156,29 @@ ul#info-paises li a{
 	background-color: transparent;
 	padding:1%;
 }
+
+
 .titulo{
 	font-size: 22px;
 }
+
+
+.titulo{
+	font-size: 22px;
+}
+
 h5{
 	font-size: 13px;
 	text-align: center;
 }
+
 #nombre,
 #email{
 	padding: 7px;
 	width: 340px;
 	margin:10px;
 }
+
 button{
 	background: #FF27B4;
 	color: #fff;
@@ -174,6 +188,17 @@ button{
 	border-style: none;
 	margin-top:10px;
 	font-size: 17px;
+
+	
+}
+
+ #aceptar{
+	margin:20px;
+}
+
+.inner-addon { 
+    position: relative; 
+}
 }
 /*CHECKBOX*/
  #aceptar{
@@ -183,6 +208,7 @@ button{
 .inner-addon { 
     position: relative; 
 }
+
 .inner-addon .fa {
   position: absolute;
   padding: 10px;
@@ -192,12 +218,19 @@ button{
 }
 .left-addon .fa  { left:  12px;}
 .left-addon .fa{ top: 6px; }
+.left-addon .fa  { left:  12px;}
+.left-addon .fa{ top: 6px; }
 .left-addon input  { 
 	padding-left:  30px; 
 }
 .right-addon input {
  padding-right: 30px; 
 }
+#aceptar{
+	background-color: blue;
+}
+
+/*FIN ESTILO INDEX3*/
 /*FIN ESTILO INDEX3*/
 /*Geolocalización*/
 /* MAPA */
@@ -302,3 +335,4 @@ li  a:hover{
 	white-space: nowrap;
 }
 /* FIN Geolocalización */
+
